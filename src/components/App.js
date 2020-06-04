@@ -5,6 +5,8 @@ import Descriptions from './Task-1/Description/Description';
 import Stats from './Task-1/Stats/Stats';
 import Statistics from './Task-2/Statistics';
 import statisticalData from './../data/statistical-data.json';
+import FriendList from './Task-3/FriendList/FriendList';
+import friends from './../data/friends.json';
 
 
 const App = () => (
@@ -17,6 +19,7 @@ const App = () => (
     <Stats followers = {user.stats.followers} views = {user.stats.views} likes= {user.stats.likes}/>
     </Profile>
     <Statistics title = "UPLOAD STATS" stats = {statisticalData} />
+    <FriendList friends = {friends}/>
   </>
 );
 
