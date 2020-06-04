@@ -1,0 +1,32 @@
+.stats {
+width: 300px;
+padding-left: 0px;
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+background-color: #f5ebebb9;
+margin: 0px;
+}
+
+li {
+width: 99.3px;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+border: 1px solid rgba(194, 189, 189, 0.253);
+padding: 10px;
+}
+
+.label {
+font-size: 15px;
+color: #808080;
+width: 100%;
+text-align: center;
+}
+
+.quantity {
+font-size: 15px;
+font-weight: bold;
+width: 100%;
+text-align: center;
+}

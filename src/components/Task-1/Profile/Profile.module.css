@@ -1,0 +1,9 @@
+.profile {
+  width: 300px;
+  height: 370px;
+  display: flex;
+  border: 2px solid rgba(128, 128, 128, 0.253);
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
