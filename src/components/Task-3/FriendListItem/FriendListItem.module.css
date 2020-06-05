@@ -1,0 +1,36 @@
+.item {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #aaa6a675;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.status {
+  width: 25px;
+  height: 25px;
+  border-radius: 50% 50% 50% 50% ;
+  margin: 5px;
+}
+
+.online {
+  composes: status;
+  background-color: #008000;
+}
+
+.offline {
+  composes: status;
+  background-color: #ff0000;
+}
+
+.avatar {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px 10px 10px 10px;
+  width: 60px;
+}

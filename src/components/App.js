@@ -7,7 +7,8 @@ import Statistics from './Task-2/Statistics';
 import statisticalData from './../data/statistical-data.json';
 import FriendList from './Task-3/FriendList/FriendList';
 import friends from './../data/friends.json';
-
+import TransactionHistory from './Task-4/TransactionHistory';
+import transactions from './../data/transaction.json';
 
 const App = () => (
   <>
@@ -20,6 +21,7 @@ const App = () => (
     </Profile>
     <Statistics title = "UPLOAD STATS" stats = {statisticalData} />
     <FriendList friends = {friends}/>
+    <TransactionHistory items = {transactions}/>
   </>
 );
 
