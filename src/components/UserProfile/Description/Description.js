@@ -3,17 +3,12 @@ import PropTypes from 'prop-types';
 import s from './Description.module.css';
 
 const Descriptions = ({name, tag, location, avatar}) => {
-  const divClass = [s.description];
-  const imgClass = [s.avatar];
-  const nameClass = [s.name];
-  const tagClass = [s.tag];
-  const locationClass = [s.location];
   return (
-    <div className={divClass}>
-      <img src={avatar} alt="user avatar" className={imgClass} />
-      <p className={nameClass}>{name}</p>
-      <p className={tagClass}>@{tag}</p>
-      <p className={locationClass}>{location}</p>
+    <div className={s.description}>
+      <img src={avatar} alt="user avatar" className={s.avatar} />
+      <p className={s.name}>{name}</p>
+      <p className={s.tag}>@{tag}</p>
+      <p className={s.location}>{location}</p>
     </div>
   );
 };

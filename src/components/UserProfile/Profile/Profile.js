@@ -7,9 +7,8 @@ import {name, tag, location, avatar, stats} from './../../../data/user.json';
 import s from './Profile.module.css';
 
 const Profile = () => {
-  const divClass = [s.profile];
   return (
-    <div className={divClass}>
+    <div className={s.profile}>
       <Descriptions
         name={name}
         tag={tag}
