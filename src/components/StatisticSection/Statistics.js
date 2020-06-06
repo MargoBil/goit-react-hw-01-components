@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import statisticalData from './../../data/statistical-data.json';
+
 import s from './Statistics.module.css';
 
 const Statistics = ({title}) => {

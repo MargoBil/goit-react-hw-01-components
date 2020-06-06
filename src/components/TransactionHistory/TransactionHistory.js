@@ -1,6 +1,7 @@
 import React from 'react';
 
 import transactions from './../../data/transaction.json';
+
 import s from './TransactionHistory.module.css';
 
 const TransactionHistory = () => {

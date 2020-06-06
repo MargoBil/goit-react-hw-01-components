@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import s from './Description.module.css';
 
 const Descriptions = ({name, tag, location, avatar}) => {

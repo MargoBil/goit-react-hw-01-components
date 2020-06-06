@@ -2,6 +2,7 @@ import React from 'react';
 
 import FriendListItem from '../FriendListItem/FriendListItem.js';
 import friends from './../../../data/friends.json';
+
 import s from './FriendList.module.css';
 
 const FriendList = () => {

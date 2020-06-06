@@ -3,7 +3,9 @@ import React from 'react';
 
 import Descriptions from './../Description/Description';
 import Stats from './../Stats/Stats';
+
 import {name, tag, location, avatar, stats} from './../../../data/user.json';
+
 import s from './Profile.module.css';
 
 const Profile = () => {
